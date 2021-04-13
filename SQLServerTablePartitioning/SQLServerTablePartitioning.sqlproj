@@ -60,11 +60,17 @@
     <Folder Include="Properties" />
     <Folder Include="Tables\" />
     <Folder Include="Storage\" />
+    <Folder Include="Procedures" />
+    <Folder Include="Jobs" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\Comments.sql" />
     <Build Include="Storage\PartirionFG.sql" />
-    <Build Include="Storage\DateAsIntPartPFN.sql" />
-    <Build Include="Storage\DateAsIntPartSCH.sql" />
+    <Build Include="Storage\IntPartPFN.sql" />
+    <Build Include="Storage\IntPartSCH.sql" />
+    <Build Include="Procedures\SplitAndMergePartition.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Jobs\Script.PostDeployment1.sql" />
   </ItemGroup>
 </Project>
