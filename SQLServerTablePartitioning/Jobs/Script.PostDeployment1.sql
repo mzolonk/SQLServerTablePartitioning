@@ -94,7 +94,7 @@ EXEC msdb.dbo.sp_add_jobschedule @job_id=@jobId, @name=N'$(JobName)',
      @active_start_date=20210128, 
      @active_end_date=99991231, 
      @active_start_time=3000, 
-     @active_end_time=235959, 
+     @active_end_time=235959
 
     /*
      * Add the job server
