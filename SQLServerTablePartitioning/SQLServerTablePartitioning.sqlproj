@@ -73,4 +73,7 @@
   <ItemGroup>
     <PostDeploy Include="Jobs\Script.PostDeployment1.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="SQLServerTablePartitioning.publish.xml" />
+  </ItemGroup>
 </Project>

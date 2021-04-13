@@ -1,5 +1,5 @@
 ﻿CREATE PARTITION FUNCTION [IntPartPFN](BIGINT)
-    AS RANGE
+    AS RANGE LEFT
     FOR VALUES (
                   1000000,
                   2000000,

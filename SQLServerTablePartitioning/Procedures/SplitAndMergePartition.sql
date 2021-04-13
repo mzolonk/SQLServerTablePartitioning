@@ -14,7 +14,7 @@ BEGIN
     FROM sys.partition_functions pf 
    JOIN sys.partition_range_values prv
      ON pf.function_id =  prv.function_id
-  WHERE pf.name = 'HighVolumePFN'
+  WHERE pf.name = 'IntPartPFN'
 
   IF (@PartCount > @PartitionsToKeep)
   BEGIN
@@ -22,7 +22,7 @@ BEGIN
      FROM sys.partition_functions pf 
      JOIN sys.partition_range_values prv
        ON pf.function_id =  prv.function_id
-    WHERE pf.name = 'HighVolumePFN'
+    WHERE pf.name = 'IntPartPFN'
       AND boundary_id = 1;
       
      --Bets practice is to always keep the last partition empty.
@@ -40,14 +40,14 @@ BEGIN
    FROM sys.partition_functions pf 
    JOIN sys.partition_range_values prv
      ON pf.function_id =  prv.function_id
-  WHERE pf.name = 'HighVolumePFN'
+  WHERE pf.name = 'IntPartPFN'
 
   SELECT @FuturePartition = @LatestPartition + @PartitionConstant;
 
-  ALTER PARTITION SCHEME HighVolumeSc
-    NEXT USED SECONDARY;
+  ALTER PARTITION SCHEME IntPartSCH
+    NEXT USED PartirionFG;
   
-  ALTER PARTITION FUNCTION HighVolumePFN()
+  ALTER PARTITION FUNCTION IntPartPFN()
   SPLIT RANGE (@FuturePartition);
   
 END
