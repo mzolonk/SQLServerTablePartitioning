@@ -1,0 +1,3 @@
+﻿CREATE PARTITION SCHEME IntPartSCH  
+  AS PARTITION IntPartPFN  
+  ALL TO (PartirionFG);
