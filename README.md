@@ -31,3 +31,21 @@
 [devbuild]:https://ci.appveyor.com/api/projects/status/t8h789tb2f1rjju5?branch=DEV
 [masterbuild]:https://ci.appveyor.com/api/projects/status/t8h789tb2f1rjju5?branch=master
 
+- [Introduction](#introduction)
+- [Support / Contribution](#support--contribution)
+- [License / Warranty](#license--warranty)
+
+
+----
+
+# Introduction
+
+# Support / Contribution
+
+# License / Warranty
+
+This project is released under the [MIT License](https://github.com/tsteenbakkers/MSSQL-CICD-Helper/blob/master/LICENSE)
+
+CODE HERE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+[⬆ back to top](#SQLServerTablePartitioning)
