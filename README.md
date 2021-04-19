@@ -20,13 +20,14 @@
 [issues badge]:https://img.shields.io/github/issues/mzolonk/SQLServerTablePartitioning.svg
 [release badge]:https://img.shields.io/github/release/mzolonk/SQLServerTablePartitioning.svg
 
-[devbuild badge]:https://ci.appveyor.com/api/projects/status/l7vbq4q6x86rgmtd?svg=true&branch=DEV
-[masterbuild badge]:https://ci.appveyor.com/api/projects/status/l7vbq4q6x86rgmtd?svg=true&branch=master
+[devbuild badge]:https://ci.appveyor.com/api/projects/status/t8h789tb2f1rjju5?svg=true&branch=DEV
+[masterbuild badge]:https://ci.appveyor.com/api/projects/status/t8h789tb2f1rjju5?svg=true&branch=master
 
 [licence]:https://github.com/mzolonk/SQLServerTablePartitioning/blob/master/LICENSE.md
 [stars]:https://github.com/mzolonk/SQLServerTablePartitioning/stargazers
 [forks]:https://github.com/mzolonk/SQLServerTablePartitioning/network
 [issues]:https://github.com/mzolonk/SQLServerTablePartitioning/issues
 [release]:https://github.com/mzolonk/SQLServerTablePartitioning/releases
-[devbuild]:
-[masterbuild]:
+[devbuild]:https://ci.appveyor.com/api/projects/status/t8h789tb2f1rjju5?branch=DEV
+[masterbuild]:https://ci.appveyor.com/api/projects/status/t8h789tb2f1rjju5?branch=master
+
