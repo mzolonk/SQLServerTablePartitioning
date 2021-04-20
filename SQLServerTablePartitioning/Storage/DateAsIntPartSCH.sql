@@ -1,3 +1,0 @@
-﻿CREATE PARTITION SCHEME DateAsIntPartSCH  
-  AS PARTITION DateAsIntPartPFN  
-  ALL TO (PartirionFG);
